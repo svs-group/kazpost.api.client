@@ -1,0 +1,19 @@
+{
+  "name":        "svs-group/kazpost-api-client",
+  "description": "Kazpost public API client",
+  "license":     "MIT",
+  "autoload":    {
+    "psr-4": {
+      "SVS\\Client\\Kazpost\\": "src/"
+    }
+  },
+  "require":     {
+    "php":               "^7.3",
+    "ext-json":          "*",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "fzaninotto/faker":        "dev-master",
+    "codeception/codeception": "^2.5"
+  }
+}
